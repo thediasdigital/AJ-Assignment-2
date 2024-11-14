@@ -1,5 +1,6 @@
 package com.example.assignment2api;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.control.Button;
@@ -18,5 +19,13 @@ public class SearchCardViewController {
 
     @FXML
     private TextField searchTxtField;
+
+    @FXML
+    void getResults(ActionEvent event) {
+
+        resultsListView.getItems().clear();
+        resultsListView.getItems().addAll(ApiUtility.searchCards(searchTxtField.getText()));
+
+    }
 
 }

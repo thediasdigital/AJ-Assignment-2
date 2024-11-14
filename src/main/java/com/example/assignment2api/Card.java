@@ -2,21 +2,21 @@ package com.example.assignment2api;
 
 public class Card {
 
-    private String name;
-    private String manaCost;
-    private int cmc;
-    private String[] colors;
-    private String[] colorIdentity;
-    private String type;
-    private String[] types;
-    private String[] subtypes;
-    private String[] rarity;
-    private String set;
-    private String setName;
-    private String text;
-    private String power;
-    private String toughness;
-    private String imageUrl;
+    public String name;
+    public String manaCost;
+    public int cmc;
+    public String[] colors;
+    public String[] colorIdentity;
+    public String type;
+    public String[] types;
+    public String[] subtypes;
+    public String rarity;
+    public String set;
+    public String setName;
+    public String text;
+    public String power;
+    public String toughness;
+    public String imageUrl;
 
     public String getName() {
         return name;
@@ -90,11 +90,11 @@ public class Card {
         this.subtypes = subtypes;
     }
 
-    public String[] getRarity() {
+    public String getRarity() {
         return rarity;
     }
 
-    public void setRarity(String[] rarity) {
+    public void setRarity(String rarity) {
         this.rarity = rarity;
     }
 
@@ -136,5 +136,9 @@ public class Card {
 
     public void setToughness(String toughness) {
         this.toughness = toughness;
+    }
+
+    public String toString() {
+        return this.name;
     }
 }
