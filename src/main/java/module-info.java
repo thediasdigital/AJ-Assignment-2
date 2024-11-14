@@ -1,6 +1,7 @@
 module com.example.assignment2api {
     requires javafx.controls;
     requires javafx.fxml;
+    requires com.google.gson;
 
 
     opens com.example.assignment2api to javafx.fxml;
