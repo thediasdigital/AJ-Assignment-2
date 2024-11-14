@@ -11,7 +11,7 @@ public class SearchCardViewController {
     private Button getDetailsBtn;
 
     @FXML
-    private ListView<?> resultsListView;
+    private ListView<Card> resultsListView;
 
     @FXML
     private Button searchBtn;
