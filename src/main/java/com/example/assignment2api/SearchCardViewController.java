@@ -2,8 +2,10 @@ package com.example.assignment2api;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 
+import java.io.IOException;
 import java.util.List;
 
 public class SearchCardViewController {
@@ -49,6 +51,9 @@ public class SearchCardViewController {
     @FXML
     private RadioButton radioType;
 
+    @FXML
+    private Label warningLabel;
+
 
     @FXML
     void getResults(ActionEvent event) {
@@ -91,5 +96,16 @@ public class SearchCardViewController {
         resultsListView.getItems().clear();
         // Add the list of items based on the search conditions
         resultsListView.getItems().addAll(ApiUtility.searchCards(searchConditions.toString()));
+    }
+
+    @FXML
+    void loadDetails(ActionEvent event) throws IOException {
+        Card currCard = resultsListView.getSelectionModel().getSelectedItem();
+        if(currCard != null) {
+            SceneManager.ShowDetails(event, currCard);
+        }
+        else {
+            warningLabel.setText("No card selected");
+        }
     }
 }
