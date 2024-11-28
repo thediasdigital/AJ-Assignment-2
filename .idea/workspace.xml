@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d7faaf-c2a8-4746-b364-0837bab899a5" name="Changes" comment="">
+    <list default="true" id="10d7faaf-c2a8-4746-b364-0837bab899a5" name="Changes" comment="changed the searchview to have extra conditions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/SearchCardViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/SearchCardViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/assignment2api/search-card-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/assignment2api/search-card-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <updated>1731545251575</updated>
       <workItem from="1731545252516" duration="5403000" />
       <workItem from="1731908933552" duration="126000" />
-      <workItem from="1732753487680" duration="3519000" />
+      <workItem from="1732753487680" duration="5937000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted default application files. Created classes to hold json response data.">
       <option name="closed" value="true" />
@@ -128,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731551744091</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed the searchview to have extra conditions.">
+      <option name="closed" value="true" />
+      <created>1732815578536</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732815578536</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +157,7 @@
     <MESSAGE value="Added ApiUtility class as well as card search view / controller." />
     <MESSAGE value="Main now extends application class, launches into search view." />
     <MESSAGE value="Added card search function to ApiUtility. Application in working state, can only search by name for now, will be updated later. Had to make fields in card classes public for deserialization, might figure out workaround later." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added card search function to ApiUtility. Application in working state, can only search by name for now, will be updated later. Had to make fields in card classes public for deserialization, might figure out workaround later." />
+    <MESSAGE value="changed the searchview to have extra conditions." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the searchview to have extra conditions." />
   </component>
 </project>

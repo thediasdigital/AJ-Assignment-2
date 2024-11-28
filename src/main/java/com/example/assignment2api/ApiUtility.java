@@ -29,7 +29,7 @@ public class ApiUtility {
         // Create the search string and append the condition
         // (For now the search is only by name for testing. I will update to allow to search by
         // different fields of a card)
-        StringBuilder searchUrl = new StringBuilder("https://api.magicthegathering.io/v1/cards?name=");
+        StringBuilder searchUrl = new StringBuilder("https://api.magicthegathering.io/v1/cards?");
         searchUrl.append(condition);
 
         try {
