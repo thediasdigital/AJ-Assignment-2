@@ -2,13 +2,16 @@ package com.example.assignment2api;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.List;
+import java.util.ResourceBundle;
 
-public class SearchCardViewController {
+public class SearchCardViewController implements Initializable {
 
     @FXML
     private Button getDetailsBtn;
@@ -107,5 +110,10 @@ public class SearchCardViewController {
         else {
             warningLabel.setText("No card selected");
         }
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        radioName.setSelected(true);
     }
 }

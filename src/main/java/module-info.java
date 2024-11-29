@@ -1,8 +1,8 @@
 module com.example.assignment2api {
-    requires javafx.controls;
     requires javafx.fxml;
     requires com.google.gson;
     requires java.net.http;
+    requires javafx.web;
 
 
     opens com.example.assignment2api to javafx.fxml;

@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d7faaf-c2a8-4746-b364-0837bab899a5" name="Changes" comment="Changed the ApiUtility and SearchCardViewController classes to allow for searching by means of the conditions in the view. Name, type, text and color.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/CardDetailsViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/SceneManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/assignment2api/card-details-view.fxml" afterDir="false" />
+    <list default="true" id="10d7faaf-c2a8-4746-b364-0837bab899a5" name="Changes" comment="Added details view and controller as well as a scene manager. Current build allows you to switch to a test details view of the currently selected card.">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/assignment2api/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/CardDetailsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/CardDetailsViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/SearchCardViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/SearchCardViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/assignment2api/card-details-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/assignment2api/card-details-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/assignment2api/search-card-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/assignment2api/search-card-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
@@ -65,6 +68,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Ben/Desktop/ADVANCED JAVA/lessons/Java_BookSearch-Week10InClass",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,7 +121,7 @@
       <updated>1731545251575</updated>
       <workItem from="1731545252516" duration="5403000" />
       <workItem from="1731908933552" duration="126000" />
-      <workItem from="1732753487680" duration="7959000" />
+      <workItem from="1732753487680" duration="15401000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted default application files. Created classes to hold json response data.">
       <option name="closed" value="true" />
@@ -167,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732817884853</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added details view and controller as well as a scene manager. Current build allows you to switch to a test details view of the currently selected card.">
+      <option name="closed" value="true" />
+      <created>1732826245370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732826245370</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +203,7 @@
     <MESSAGE value="Added card search function to ApiUtility. Application in working state, can only search by name for now, will be updated later. Had to make fields in card classes public for deserialization, might figure out workaround later." />
     <MESSAGE value="changed the searchview to have extra conditions." />
     <MESSAGE value="Changed the ApiUtility and SearchCardViewController classes to allow for searching by means of the conditions in the view. Name, type, text and color." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the ApiUtility and SearchCardViewController classes to allow for searching by means of the conditions in the view. Name, type, text and color." />
+    <MESSAGE value="Added details view and controller as well as a scene manager. Current build allows you to switch to a test details view of the currently selected card." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added details view and controller as well as a scene manager. Current build allows you to switch to a test details view of the currently selected card." />
   </component>
 </project>
