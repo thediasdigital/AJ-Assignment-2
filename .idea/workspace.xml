@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d7faaf-c2a8-4746-b364-0837bab899a5" name="Changes" comment="Finished bones of card details controller / view. Had to add web dependency to view the card art. The image url is not an image format it is a static webpage.">
+    <list default="true" id="10d7faaf-c2a8-4746-b364-0837bab899a5" name="Changes" comment="Added a button to return to search">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/CardDetailsViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/CardDetailsViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/SceneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/SceneManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <updated>1731545251575</updated>
       <workItem from="1731545252516" duration="5403000" />
       <workItem from="1731908933552" duration="126000" />
-      <workItem from="1732753487680" duration="16352000" />
+      <workItem from="1732753487680" duration="17005000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted default application files. Created classes to hold json response data.">
       <option name="closed" value="true" />
@@ -182,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732891529926</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added a button to return to search">
+      <option name="closed" value="true" />
+      <created>1732892437158</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732892437158</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +215,7 @@
     <MESSAGE value="Changed the ApiUtility and SearchCardViewController classes to allow for searching by means of the conditions in the view. Name, type, text and color." />
     <MESSAGE value="Added details view and controller as well as a scene manager. Current build allows you to switch to a test details view of the currently selected card." />
     <MESSAGE value="Finished bones of card details controller / view. Had to add web dependency to view the card art. The image url is not an image format it is a static webpage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished bones of card details controller / view. Had to add web dependency to view the card art. The image url is not an image format it is a static webpage." />
+    <MESSAGE value="Added a button to return to search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a button to return to search" />
   </component>
 </project>
