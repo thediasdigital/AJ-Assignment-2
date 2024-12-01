@@ -8,7 +8,9 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ApiUtility {
 
@@ -50,6 +52,10 @@ public class ApiUtility {
                 CardList cardList = gson.fromJson(response.body(), CardList.class);
                 // Add the results to the cards list
                 cards.addAll(cardList.getCards());
+                // Since many cards have had many printings we want to delete all duplicate printings
+                // to not overflow the list with a bunch of the same card
+                Set<String> seenCards = new HashSet<>();
+                cards.removeIf(card -> !seenCards.add(card.name));
             }
             else {
                 System.out.println("Invalid response from api");

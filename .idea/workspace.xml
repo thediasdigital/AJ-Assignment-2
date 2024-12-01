@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d7faaf-c2a8-4746-b364-0837bab899a5" name="Changes" comment="Added a button to return to search">
+    <list default="true" id="10d7faaf-c2a8-4746-b364-0837bab899a5" name="Changes" comment="Added logo icon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/ApiUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/assignment2api/ApiUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <updated>1731545251575</updated>
       <workItem from="1731545252516" duration="5403000" />
       <workItem from="1731908933552" duration="126000" />
-      <workItem from="1732753487680" duration="17005000" />
+      <workItem from="1732753487680" duration="17782000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted default application files. Created classes to hold json response data.">
       <option name="closed" value="true" />
@@ -189,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732892437158</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added logo icon">
+      <option name="closed" value="true" />
+      <created>1733095575295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733095575295</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added logo icon">
+      <option name="closed" value="true" />
+      <created>1733095608940</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733095608940</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +232,7 @@
     <MESSAGE value="Added details view and controller as well as a scene manager. Current build allows you to switch to a test details view of the currently selected card." />
     <MESSAGE value="Finished bones of card details controller / view. Had to add web dependency to view the card art. The image url is not an image format it is a static webpage." />
     <MESSAGE value="Added a button to return to search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a button to return to search" />
+    <MESSAGE value="Added logo icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logo icon" />
   </component>
 </project>
