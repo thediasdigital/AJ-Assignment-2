@@ -95,10 +95,17 @@ public class SearchCardViewController implements Initializable {
                 searchConditions.append("g,");
             }
         }
-        // Clear the list view of previous content
-        resultsListView.getItems().clear();
-        // Add the list of items based on the search conditions
-        resultsListView.getItems().addAll(ApiUtility.searchCards(searchConditions.toString()));
+        List<Card> cards = ApiUtility.searchCards(searchConditions.toString());
+        if(cards.isEmpty()) {
+            warningLabel.setText("Your search yielded no results.");
+        }
+        else {
+            // Clear the list view of previous content and remove label text
+            resultsListView.getItems().clear();
+            warningLabel.setText("");
+            // Add the list of items based on the search conditions
+            resultsListView.getItems().addAll(cards);
+        }
     }
 
     @FXML
