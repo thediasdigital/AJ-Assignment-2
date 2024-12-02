@@ -1,3 +1,22 @@
 Label {
+    -fx-text-fill: white;
     -fx-wrap-text: true;
 }
+RadioButton, CheckBox {
+    -fx-text-fill: white;
+}
+AnchorPane {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #141414, #0C53A6);
+}
+Button {
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-padding: 3px 15px;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-color: #002F63;
+}
+    Button:hover {
+        -fx-cursor: hand;
+        -fx-background-color: #2B6ABC;
+    }

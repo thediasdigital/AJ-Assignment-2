@@ -18,7 +18,7 @@
                <children>
                   <Group>
                      <children>
-                        <Label text="Card Name:">
+                        <Label text="Card Name:" underline="true">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -35,7 +35,7 @@
                   </Group>
                   <Group>
                      <children>
-                        <Label text="Mana Cost:">
+                        <Label text="Mana Cost:" underline="true">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -52,24 +52,7 @@
                   </Group>
                   <Group>
                      <children>
-                        <Label text="Color Identity:">
-                           <font>
-                              <Font size="18.0" />
-                           </font>
-                        </Label>
-                        <Label fx:id="colorText" layoutY="27.333335876464844" text="Label">
-                           <font>
-                              <Font size="16.0" />
-                           </font>
-                        </Label>
-                     </children>
-                     <VBox.margin>
-                        <Insets top="15.0" />
-                     </VBox.margin>
-                  </Group>
-                  <Group>
-                     <children>
-                        <Label text="Types:">
+                        <Label text="Types:" underline="true">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -86,7 +69,7 @@
                   </Group>
                   <Group>
                      <children>
-                        <Label text="Set Name:">
+                        <Label text="Set Name:" underline="true">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -103,7 +86,7 @@
                   </Group>
                   <Group>
                      <children>
-                        <Label text="Rarity:">
+                        <Label text="Rarity:" underline="true">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -120,7 +103,7 @@
                   </Group>
                   <Group>
                      <children>
-                        <Label text="Power/Toughness:">
+                        <Label text="Power/Toughness:" underline="true">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -143,7 +126,7 @@
                   <Insets left="20.0" />
                </padding>
             </VBox>
-            <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="310.0" layoutY="556.0" mnemonicParsing="false" onAction="#backToSearch" text="Back To Search">
+            <Button alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="556.0" mnemonicParsing="false" onAction="#backToSearch" text="Back To Search">
                <font>
                   <Font size="14.0" />
                </font>

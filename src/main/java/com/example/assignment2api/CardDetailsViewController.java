@@ -16,9 +16,6 @@ public class CardDetailsViewController {
     private Label cardName;
 
     @FXML
-    private Label colorText;
-
-    @FXML
     private Label manaText;
 
     @FXML
